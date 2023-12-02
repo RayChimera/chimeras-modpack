@@ -12,5 +12,9 @@ git add build.sh &> /dev/null
 # Checking status
 git status
 
+# Pushing
+git commit
+git push -u origin main
+
 # All is well
 echo "All is well and all the things are well"
