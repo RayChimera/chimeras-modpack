@@ -1,0 +1,201 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "market"
+	group: "0486928D092B03E2"
+	icon: "coinsje:diamond_coin_pile"
+	id: "7ACBB48CF0AD779D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			dependencies: ["4D17434E32E141BE"]
+			description: ["Yes, there are money in this modpack and yes, you can but &dStuff"]
+			hide: true
+			hide_dependent_lines: true
+			id: "4CBFF723208EE3B4"
+			rewards: [{
+				id: "2139AFA7C89F6B7C"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "You guys are getting paid???"
+			tasks: [{
+				id: "7468CF4632AE7DF0"
+				type: "checkmark"
+			}]
+			title: "Money?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CBFF723208EE3B4"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B58583F47A2D89C"
+			rewards: [{
+				id: "06E48812B3F800AF"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0192915713159EA6"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Diamond Shovel"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4CBFF723208EE3B4"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "730A00C08F8C166A"
+			rewards: [{
+				id: "33A3A752654D31C2"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "620CCE6274C8F089"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Diamond Sword"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CBFF723208EE3B4"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E6A0893BB76A3B7"
+			rewards: [{
+				id: "7B08FF4A9EAD1BB1"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3AF9330A86F95C47"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Diamond Pickaxe"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CBFF723208EE3B4"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0773E2CF29DFB482"
+			rewards: [{
+				id: "416E9B56D600DDC1"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "237EAAA84E0C8BAD"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Diamond Axe"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0773E2CF29DFB482"
+				"5E6A0893BB76A3B7"
+				"6B58583F47A2D89C"
+				"730A00C08F8C166A"
+			]
+			description: ["Did you seriosly kust bought it? You know it's useless, right?"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A25CB71446D7201"
+			rewards: [{
+				id: "775CC2CD50F642A1"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56EBEB78B2CE4FD4"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "Diamond Hoe"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "Market"
+}

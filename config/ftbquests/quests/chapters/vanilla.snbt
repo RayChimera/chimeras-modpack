@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla"
+	group: "28F5EDBBBCD3BBBE"
+	id: "498FF79B349AA147"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["First and foremost you need to get some logs. You know the drill."]
+			id: "4D17434E32E141BE"
+			rewards: [{
+				id: "3C6301B917A69E97"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "11F5AF1CC39BE315"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Time to punch"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D17434E32E141BE"]
+			icon: "minecraft:crafting_table"
+			id: "4E944BC4703EC558"
+			rewards: [{
+				id: "7A24928BBCDEE633"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4137FCC541EA1088"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					id: "44107B15F4B6E1E7"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Vanilla"
+}

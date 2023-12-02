@@ -20,7 +20,9 @@
 - FTB Essentials
 - FTB Backups 2
 - FTB Library
+- ~~BetterWaystones~~
 
 ### To update:
 * ```{item:"minecraft:stone_sword"}/starterkit set``` - Saves current inventory
 * ```{item:"minecraft:music_disc_5"}/defaultoptions saveAll``` - Saves default options
+* ```{item:"minecraft:bedrock"}/ftbquests change_progress MsChimera complete 6C9CCBA7051B2F23``` - Cheats on

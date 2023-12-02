@@ -3,6 +3,7 @@
 		"favorites": [
 			"{command:\"starterkit set\",item:{Count:1b,id:\"minecraft:stone_sword\",tag:{Damage:0}},title:'{\"text\":\"\"}',type:\"rei_custom_command:custom-command\"}",
 			"{command:\"defaultoptions saveAll\",item:{Count:1b,id:\"minecraft:music_disc_5\"},title:'{\"text\":\"\"}',type:\"rei_custom_command:custom-command\"}",
+			"{command:\"ftbquests change_progress MsChimera complete 6C9CCBA7051B2F23\",item:{Count:1b,id:\"minecraft:bedrock\"},title:'{\"text\":\"\"}',type:\"rei_custom_command:custom-command\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
 			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",

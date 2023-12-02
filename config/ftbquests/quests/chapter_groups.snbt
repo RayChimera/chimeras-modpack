@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "5BF80403DAEF5BD0", title: "Greetings" }]
+	chapter_groups: [
+		{ id: "0486928D092B03E2", title: "Repeatable" }
+		{ id: "28F5EDBBBCD3BBBE", title: "Progression" }
+	]
 }

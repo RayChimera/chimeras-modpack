@@ -85,7 +85,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:0.3543046357615894
-soundCategory_music:0.0
+soundCategory_music:0.30633802816901406
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

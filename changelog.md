@@ -1,3 +1,7 @@
+## Chimera's Modpack 0.1.6
+Added:
+- Waystones
+- Coins JE (for questing)
 ## Chimera's Modpack 0.1.5
 Added:
 - FTB mods
