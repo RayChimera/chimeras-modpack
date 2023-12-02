@@ -11,7 +11,7 @@
 5 : '',
 6 : '',
 7 : '',
-8 : '',
+8 : '{Count:1b,id:"ftbquests:book",tag:{display:{Name:'{"translate":"eccentrictome.name","with":[{"color":"green","translate":"item.ftbquests.book"}]}'},"eccentrictome:is_tome":1b,"eccentrictome:mods":{apotheosis:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"apotheosis:apoth_chronicle"}}},patchouli:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"patchouli:test_book"}}}},"eccentrictome:version":1}}',
 9 : '',
 10 : '',
 11 : '',

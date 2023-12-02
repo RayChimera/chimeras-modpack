@@ -1,8 +1,10 @@
+backups/
 crash-reports/
 datapacks/
 essential/
+local/
 logs/
-resourcepacks/
+saves/
 schematics/
 screenshots/
 shaderpacks/
@@ -10,6 +12,7 @@ XaeroWaypoints/
 XaeroWaypoints_*/
 XaeroWorldMap/
 knownkeys.txt
+patchouli_data.json
 profile.json
 usercache.json
-usermamecache.json
+usernamecache.json
