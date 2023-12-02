@@ -1,4 +1,17 @@
-## Chimera's Modpack 0.1.3
+## Chimera's Modpack 0.1.5
+Added:
+- FTB mods
+- Dark GUI resourcepack
+
+Deleted:
+- Essential
+- Fast Backups (now I have FTB Backups)
+- Open Parties and Claims
+
+Others:
+- Made a simpe menu for easier development ;)
+
+## Chimera's Modpack 0.1.4
 Added:
 - Lots of mods
 

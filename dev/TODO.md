@@ -22,5 +22,5 @@
 - FTB Library
 
 ### To update:
-* ```/starterkit set``` - Saves current inventory
-* ```/defaultoptions saveAll``` - Saves default options
+* ```{item:"minecraft:stone_sword"}/starterkit set``` - Saves current inventory
+* ```{item:"minecraft:music_disc_5"}/defaultoptions saveAll``` - Saves default options
