@@ -1,0 +1,15 @@
+crash-reports/
+datapacks/
+essential/
+logs/
+resourcepacks/
+schematics/
+screenshots/
+shaderpacks/
+XaeroWaypoints/
+XaeroWaypoints_*/
+XaeroWorldMap/
+knownkeys.txt
+profile.json
+usercache.json
+usermamecache.json
