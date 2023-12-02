@@ -1,0 +1,21 @@
+=== Chimera's Modpack 0.1.2 ===
+Added:
+
+- [Starter Kit](https://modrinth.com/mod/starter-kit) starterkit-1.20.1-5.3.jar
+
+Other:
+
+- Updated default config
+
+=== Chimera's Modpack 0.1.2 ===
+Other:
+
+- Updated default config
+
+=== Chimera's Modpack 0.1.1 ===
+Added:
+
+- [Neat](https://modrinth.com/mod/neat) 1.20-35-forge
+
+=== Chimera's Modpack 0.1.0 ===
+Initial idea
