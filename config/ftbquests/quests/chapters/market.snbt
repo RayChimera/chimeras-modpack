@@ -8,6 +8,44 @@
 	group: "0486928D092B03E2"
 	icon: "coinsje:diamond_coin_pile"
 	id: "7ACBB48CF0AD779D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "chimera:textures/quests/market_buy.png"
+			rotation: 0.0d
+			width: 4.691358024691358d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "chimera:textures/quests/market_sell.png"
+			rotation: 0.0d
+			width: 5.753086419753086d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftblibrary:icons/money_bag"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -20,7 +58,7 @@
 			id: "4CBFF723208EE3B4"
 			rewards: [{
 				id: "2139AFA7C89F6B7C"
-				item: "coinsje:copper_coin"
+				item: "kubejs:minedollars"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -58,12 +96,12 @@
 			size: 1.0d
 			tasks: [{
 				id: "0192915713159EA6"
-				item: "coinsje:copper_coin"
+				item: "kubejs:coin_copper"
 				type: "item"
 			}]
 			title: "Diamond Shovel"
-			x: 0.5d
-			y: 2.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -90,12 +128,12 @@
 			size: 1.0d
 			tasks: [{
 				id: "620CCE6274C8F089"
-				item: "coinsje:copper_coin"
+				item: "kubejs:minedollars"
 				type: "item"
 			}]
 			title: "Diamond Sword"
-			x: 0.0d
-			y: 1.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CBFF723208EE3B4"]
@@ -121,12 +159,12 @@
 			size: 1.0d
 			tasks: [{
 				id: "3AF9330A86F95C47"
-				item: "coinsje:copper_coin"
+				item: "kubejs:minedollars"
 				type: "item"
 			}]
 			title: "Diamond Pickaxe"
-			x: -0.5d
-			y: 2.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4CBFF723208EE3B4"]
@@ -152,12 +190,12 @@
 			size: 1.0d
 			tasks: [{
 				id: "237EAAA84E0C8BAD"
-				item: "coinsje:copper_coin"
+				item: "kubejs:minedollars"
 				type: "item"
 			}]
 			title: "Diamond Axe"
-			x: 0.0d
-			y: 2.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -166,7 +204,7 @@
 				"6B58583F47A2D89C"
 				"730A00C08F8C166A"
 			]
-			description: ["Did you seriosly kust bought it? You know it's useless, right?"]
+			description: ["Did you seriosly just bought it? You know it's useless, right?"]
 			hide_text_until_complete: true
 			icon: {
 				Count: 1b
@@ -189,12 +227,36 @@
 			}]
 			tasks: [{
 				id: "56EBEB78B2CE4FD4"
-				item: "coinsje:copper_coin"
+				item: "kubejs:minedollars"
 				type: "item"
 			}]
 			title: "Diamond Hoe"
-			x: 0.0d
-			y: 3.5d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "25FBAC5DA4838AC2"
+			rewards: [{
+				id: "14D3E5F0A1BB4FBA"
+				item: "kubejs:minedollars"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5A503E71E98EDBA4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "64x logs"
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Market"

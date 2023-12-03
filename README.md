@@ -1,7 +1,7 @@
-# Description
+## Description
 Chimera's attempt to make a basic modpack
 
-# Highlights
+## Highlights
 - Tech mods:
     - Applied Energistics 2
     - Create
@@ -12,5 +12,5 @@ Chimera's attempt to make a basic modpack
     - Waystones
     - Xaero's Map
 
-# Attribution
+## Attribution
 [Chimera icons created by max.icons - Flaticon](https://www.flaticon.com/free-icons/chimera)

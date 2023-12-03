@@ -1,14 +1,25 @@
 {
 	always_invisible: true
-	default_hide_dependency_lines: false
+	consume_items: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	default_repeatable_quest: true
 	filename: "123"
 	group: "0486928D092B03E2"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:bedrock"
 	id: "75149A5952293551"
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [{
+		can_repeat: true
+		hide: true
+		hide_dependency_lines: true
+		hide_dependent_lines: true
+		hide_details_until_startable: true
+		hide_text_until_complete: true
 		icon: "minecraft:bedrock"
 		id: "6C9CCBA7051B2F23"
 		invisible: true
@@ -120,10 +131,11 @@
 			}
 		]
 		tasks: [{
-			id: "71A3D34B77734EF5"
-			type: "checkmark"
+			id: "0BE2130BE2C8A1B6"
+			title: "Nothing to see here"
+			type: "custom"
 		}]
-		title: "Cheater"
+		title: "???"
 		x: 0.0d
 		y: 0.0d
 	}]
